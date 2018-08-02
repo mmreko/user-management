@@ -1,0 +1,31 @@
+{
+	"email": "jonsnow@test.com",
+	"password": "pass123",
+	"name": "Jon Snow",
+	"group": "Nights Watch"
+},
+{
+	"email": "motherofdragons@test.com",
+	"password": "pass123",
+	"name": "Daenerys Targaryen",
+	"group": "Dragonstone"
+},
+{
+	"email": "tlannister@test.com",
+	"password": "pass123",
+	"name": "Tyrion Lannister",
+	"group": "Casterly Rock"
+},
+{
+	"email": "noone@test.com",
+	"password": "pass123",
+	"name": "Arya Stark",
+	"group": "Braavos"
+},
+{
+	"email": "jlannister@test.com",
+	"password": "pass123",
+	"name": "Jaime Lannister",
+	"group": "Casterly Rock"
+}
+
