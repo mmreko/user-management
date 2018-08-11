@@ -5,7 +5,8 @@ const dbSettings = {
 	db: 'users',
 	user: 'root',
 	pass: 'rootPassXXX',
-	server: '192.168.99.100:27017',
+	//server: '192.168.99.100:27017',
+	server: '192.168.99.100:30178',
 	dbParameters: () => ({
 		w: 'majority',
 		wtimeout: 10000,
