@@ -6,7 +6,7 @@ const dbSettings = {
 	user: 'root',
 	pass: 'rootPassXXX',
 	//server: '10.105.116.206:27017',
-	server: 'http://mongo-user',
+	server: 'mongo-user:27017',
 	dbParameters: () => ({
 		w: 'majority',
 		wtimeout: 10000,
