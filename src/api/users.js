@@ -23,6 +23,7 @@ module.exports = (app, options) => {
 	// POST /users/researchers/email
 	app.post('/users/researchers/email', (req, res, next) => {
 		repo.getResearcher(req.body.email).then(researcher => {
+			console.log(researcher)
 			res.status(status.OK).json(researcher)
 		}).catch(next)
 	})

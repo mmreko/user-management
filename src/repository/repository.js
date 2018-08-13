@@ -50,6 +50,7 @@ const repository = (mongoclient) => {
 				if (err) {
 					reject(new Error(`An error occured fetching a researcher with email: ${email}, err: ${err}`))
 				}
+				console.log(researcher.name)
 				resolve(researcher)
 			}
 			
